@@ -1,0 +1,61 @@
+/* calculator.css */
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f3f4f6; /* light gray background */
+}
+
+.card {
+  background: #3f1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 320px;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.dispaly {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  margin-right: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  outline: none;
+  background: #f9fafb;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button button {
+  padding: 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button button:hover {
+  background: #d1d5db;
+}
+
+.button button:active {
+  transform: scale(0.95);
+}
+
+

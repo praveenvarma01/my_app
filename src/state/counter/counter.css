@@ -1,0 +1,68 @@
+/* Basic styling for the entire page */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main container for the Hideseek component */
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Button container styling */
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+/* Individual button styling */
+.btn button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.btn button:hover {
+  background-color: #357ABD;
+}
+
+/* Container for the user cards */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+
+ .card > div {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  flex: 1 1 200px; /* Allows cards to grow and wrap */
+} 
