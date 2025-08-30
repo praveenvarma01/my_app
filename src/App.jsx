@@ -290,13 +290,29 @@
 // export default App
 
 
-// input checked function component
-import TextMirror from "../component/function/onchange";
+// Onchange --input--functional component
+// import TextMirror from "../component/function/onchange";
+// function App() {
+//   return (
+//     <TextMirror />
+//   );
+// }
+// export default App;
 
-function App() {
-  return (
-    <TextMirror />
-  );
+//Joke
+import Joke from "../component/function/joke";
+function App(){
+  return(
+    <Joke/>
+  )
 }
+export default App
 
-export default App;
+
+// import Timer from "../component/function/joke";
+// function App(){
+//   return(
+//     <Timer/>
+//   )
+// }
+// export default App
