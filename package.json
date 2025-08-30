@@ -1,6 +1,7 @@
 {
   "name": "my_app",
   "private": true,
+  "homepage": "https://praveenvarma01.github.io/joke_app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
